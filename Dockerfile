@@ -1,4 +1,4 @@
-FROM argoproj/argocd:v3.2.0
+FROM quay.io/argoproj/argocd:v3.2.0
 
 USER root
 RUN apt-get update && \
